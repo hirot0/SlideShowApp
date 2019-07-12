@@ -12,6 +12,10 @@
 		A1B405E822D6EC33007E2C9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1B405E622D6EC33007E2C9A /* Main.storyboard */; };
 		A1B405EA22D6EC34007E2C9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1B405E922D6EC34007E2C9A /* Assets.xcassets */; };
 		A1B405ED22D6EC34007E2C9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1B405EB22D6EC34007E2C9A /* LaunchScreen.storyboard */; };
+		A1B405F722D6EEA0007E2C9A /* fruit_grape_gorby.png in Resources */ = {isa = PBXBuildFile; fileRef = A1B405F422D6EEA0007E2C9A /* fruit_grape_gorby.png */; };
+		A1B405F822D6EEA0007E2C9A /* fruit_melon_hitokuchi_green.png in Resources */ = {isa = PBXBuildFile; fileRef = A1B405F522D6EEA0007E2C9A /* fruit_melon_hitokuchi_green.png */; };
+		A1B405F922D6EEA0007E2C9A /* fruit_slice10_orange.png in Resources */ = {isa = PBXBuildFile; fileRef = A1B405F622D6EEA0007E2C9A /* fruit_slice10_orange.png */; };
+		A1B405FB22D7075F007E2C9A /* BackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B405FA22D7075F007E2C9A /* BackViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		A1B405E922D6EC34007E2C9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1B405EC22D6EC34007E2C9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A1B405EE22D6EC34007E2C9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1B405F422D6EEA0007E2C9A /* fruit_grape_gorby.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fruit_grape_gorby.png; sourceTree = "<group>"; };
+		A1B405F522D6EEA0007E2C9A /* fruit_melon_hitokuchi_green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fruit_melon_hitokuchi_green.png; sourceTree = "<group>"; };
+		A1B405F622D6EEA0007E2C9A /* fruit_slice10_orange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fruit_slice10_orange.png; sourceTree = "<group>"; };
+		A1B405FA22D7075F007E2C9A /* BackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +64,14 @@
 			children = (
 				A1B405E222D6EC33007E2C9A /* AppDelegate.swift */,
 				A1B405E422D6EC33007E2C9A /* ViewController.swift */,
+				A1B405FA22D7075F007E2C9A /* BackViewController.swift */,
 				A1B405E622D6EC33007E2C9A /* Main.storyboard */,
 				A1B405E922D6EC34007E2C9A /* Assets.xcassets */,
 				A1B405EB22D6EC34007E2C9A /* LaunchScreen.storyboard */,
 				A1B405EE22D6EC34007E2C9A /* Info.plist */,
+				A1B405F422D6EEA0007E2C9A /* fruit_grape_gorby.png */,
+				A1B405F522D6EEA0007E2C9A /* fruit_melon_hitokuchi_green.png */,
+				A1B405F622D6EEA0007E2C9A /* fruit_slice10_orange.png */,
 			);
 			path = SlideshowApp;
 			sourceTree = "<group>";
@@ -122,8 +134,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1B405F922D6EEA0007E2C9A /* fruit_slice10_orange.png in Resources */,
+				A1B405F822D6EEA0007E2C9A /* fruit_melon_hitokuchi_green.png in Resources */,
 				A1B405ED22D6EC34007E2C9A /* LaunchScreen.storyboard in Resources */,
 				A1B405EA22D6EC34007E2C9A /* Assets.xcassets in Resources */,
+				A1B405F722D6EEA0007E2C9A /* fruit_grape_gorby.png in Resources */,
 				A1B405E822D6EC33007E2C9A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,6 +150,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1B405FB22D7075F007E2C9A /* BackViewController.swift in Sources */,
 				A1B405E522D6EC33007E2C9A /* ViewController.swift in Sources */,
 				A1B405E322D6EC33007E2C9A /* AppDelegate.swift in Sources */,
 			);
