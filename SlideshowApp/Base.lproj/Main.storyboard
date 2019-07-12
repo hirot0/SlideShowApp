@@ -30,6 +30,7 @@
                                     <constraint firstAttribute="width" secondItem="rlh-g9-HSK" secondAttribute="height" multiplier="3:2" id="R2f-1R-xai"/>
                                 </constraints>
                                 <connections>
+                                    <action selector="imageTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TFr-Au-CGf"/>
                                     <segue destination="sts-qg-zdD" kind="show" id="leA-Wc-nAz"/>
                                 </connections>
                             </button>
@@ -101,9 +102,9 @@
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GYX-JF-lpY">
-                                <rect key="frame" x="190" y="508" width="34" height="30"/>
+                                <rect key="frame" x="191.5" y="508" width="31" height="31"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" secondItem="GYX-JF-lpY" secondAttribute="height" multiplier="17:15" id="SDj-ec-QMZ"/>
+                                    <constraint firstAttribute="width" secondItem="GYX-JF-lpY" secondAttribute="height" multiplier="30:30" id="SDj-ec-QMZ"/>
                                 </constraints>
                                 <state key="normal" title="戻る"/>
                                 <connections>
@@ -115,11 +116,9 @@
                         <constraints>
                             <constraint firstItem="GYX-JF-lpY" firstAttribute="top" secondItem="lc2-06-Zj2" secondAttribute="bottom" constant="70" id="8fd-qV-5jg"/>
                             <constraint firstItem="lc2-06-Zj2" firstAttribute="leading" secondItem="zoz-5B-IvZ" secondAttribute="leading" constant="20" id="9wm-lc-3Xw"/>
-                            <constraint firstItem="zoz-5B-IvZ" firstAttribute="trailing" secondItem="GYX-JF-lpY" secondAttribute="trailing" constant="190" id="BEE-Wa-dLG"/>
                             <constraint firstItem="zoz-5B-IvZ" firstAttribute="trailing" secondItem="lc2-06-Zj2" secondAttribute="trailing" constant="20" id="Kg2-EC-K5x"/>
-                            <constraint firstItem="zoz-5B-IvZ" firstAttribute="bottom" secondItem="GYX-JF-lpY" secondAttribute="bottom" constant="324" id="bXh-Vp-iIg"/>
+                            <constraint firstItem="GYX-JF-lpY" firstAttribute="centerX" secondItem="KtC-sq-tkL" secondAttribute="centerX" id="Nhl-Ao-UhR"/>
                             <constraint firstItem="lc2-06-Zj2" firstAttribute="top" secondItem="zoz-5B-IvZ" secondAttribute="top" constant="20" id="k1W-FJ-vZe"/>
-                            <constraint firstItem="GYX-JF-lpY" firstAttribute="leading" secondItem="zoz-5B-IvZ" secondAttribute="leading" constant="190" id="wPk-VL-5rk"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="zoz-5B-IvZ"/>
                     </view>

@@ -95,5 +95,15 @@ class ViewController: UIViewController {
         }
         
     }
+    @IBAction func imageTap(_ sender: Any) {
+        if self.timer != nil {
+            self.timer.invalidate()
+            self.timer = nil
+            Button.setTitle("再生", for: .normal)
+            Prev.isEnabled = true
+            Next.isEnabled = true
+        }
+        
+    }
 }
 
